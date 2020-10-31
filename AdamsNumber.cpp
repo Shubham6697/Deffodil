@@ -25,7 +25,7 @@ int checkAdamsNumber(int n)
     int a=squarenumber(n);
     int b=squarenumber(reversenumber(n));
 
-    if(a==reversenumber(n))
+    if(a==reversenumber(b))
         return true;
         else
     return false;
