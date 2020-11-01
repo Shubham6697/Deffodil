@@ -1,8 +1,9 @@
 #include<iostream>
 #include<vector>
+#include<math.h>
 using namespace std;
 bool check_prime(int n){
-    for(int j=2;j<n;j++)
+    for(int j=2;j<sqrt(n)+1;j++)
         if(n%j == 0)
             return false;
     return true;
