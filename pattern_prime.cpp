@@ -1,6 +1,5 @@
 #include<iostream>
 #include<vector>
-#include<map>
 using namespace std;
 bool check_prime(int n){
     for(int j=2;j<n;j++)
