@@ -12,6 +12,7 @@ bool check_prime(int n){
 vector<int> prime(int n){
     vector<int> v;
     v.push_back(1);
+    v.push_back(2);
     for(int i=2;v.size()!=n;i++)
         if(check_prime(i))
             v.push_back(i);
