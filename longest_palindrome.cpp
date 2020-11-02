@@ -15,7 +15,7 @@ int main()
         {
             if(s[left] == s[right])
             {
-                a[i]++;
+                a[i]+=2;
                 left--;
                 right++;
             }
